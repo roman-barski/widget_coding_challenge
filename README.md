@@ -32,10 +32,7 @@ The solution is built with a focus on:
 ## Installation
 
 1. Clone the repository
-2. Install dependencies:
-   ```bash
-   bundle install
-   ```
+2. Ensure Ruby is installed and available in your PATH
 
 ## Usage
 
@@ -60,7 +57,7 @@ puts "Total: $#{'%.2f' % basket.total}"
 ```bash
 ruby demo.rb
 # or with Rake
-yarn rake demo
+rake demo
 ```
 
 ### Running Tests
